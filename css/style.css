@@ -1171,10 +1171,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .grow {
 
-  color: white;
+  color: black;
   background-color:rgb(115, 237, 50);
   margin:10px 10px;
-  height: 53px;
+  height: 56px;
   position: relative;
   transition: height 0.5s;
   -webkit-transition: height 0.5s;
@@ -1189,9 +1189,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   justify-content: center;
 }
 .grow h4{
-  font-weight: 500;
-  color:rgb(224, 254, 255)
-
+  font-weight: bolder;
+  color:rgb(0, 6, 83);
+  margin-bottom: 50px;
 }
 .social{
   background: #081e5b;
