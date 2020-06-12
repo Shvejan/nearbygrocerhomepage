@@ -636,7 +636,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .box h4 a {
   color: #444;
 }
-
+.gradientvision {
+  /* background: #1de431;
+  background: -webkit-linear-gradient(to right, #33c80d, #00620a);
+  background: linear-gradient(
+    to right,
+    #3d9e79,
+    #048110
+  );  */
+  background: linear-gradient(to bottom, #33ff55 0%, #2e7e7e 100%);
+}
 #services .box p {
   font-size: 14px;
   margin-left: 100px;
