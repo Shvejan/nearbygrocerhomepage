@@ -663,7 +663,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   CSS
   background: rgb(181,181,181);
   background: linear-gradient(0deg, rgba(181,181,181,1) 0%, rgba(45,220,253,1) 100%);
-  
+
 }
 #services .box p {
   font-size: 14px;
@@ -1192,4 +1192,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 500;
   color:rgb(224, 254, 255)
 
+}
+.social{
+  background: #081e5b;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
