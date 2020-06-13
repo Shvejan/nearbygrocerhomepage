@@ -187,3 +187,6 @@ jQuery(document).ready(function ($) {
     },
   });
 });
+const feedback = () => {
+  document.getElementById("sendmessage").style.display = "flex";
+};

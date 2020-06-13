@@ -769,10 +769,9 @@ By modernizing the Kirana shops and ensuring that business becomes better for th
       </div>
 
       <div class="container">
-        <div class="form">
+        <div class="form" >
           <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form onsubmit="feedback()" action="https://script.google.com/macros/s/AKfycbxjHGGD3ZWSr2ENFh29S3yNGHfk1lp9L1gvwpVUCuYvpPG5fus/exec" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -788,7 +787,7 @@ By modernizing the Kirana shops and ensuring that business becomes better for th
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea id="message" class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center">
