@@ -1231,3 +1231,40 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 30px;
   }
 }
+
+#videoBG {
+  /*not work if the screen ratio is below 16/9*/
+  width: 100%;
+  height: auto;
+}
+/* @media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoBG {
+    width: auto;
+    height: 100%;
+  }
+} */
+@media (max-width: 767px) {
+  #videocontainer {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+}
+#videocontainer {
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
