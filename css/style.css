@@ -1249,7 +1249,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 100%;
   }
 } */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   #videocontainer {
     width: 100%;
     align-items: center;
@@ -1258,9 +1258,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     overflow: hidden;
   }
-}
+} */
 #videocontainer {
-  height: 400px;
   width: 100%;
   align-items: center;
   justify-content: center;
