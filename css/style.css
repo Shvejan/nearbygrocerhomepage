@@ -859,13 +859,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #fff;
+  border: 3px solid #50d8af;
   color: #fff;
+  background: #50d8af;
 }
 
 .call-to-action .cta-btn:hover {
-  background: #50d8af;
-  border: 3px solid #50d8af;
+  border: 3px solid #fff;
+
+  background: none;
 }
 
 /* Our Team Section
@@ -1250,4 +1252,125 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   overflow: hidden;
   background-color: #f3a82f;
+}
+blockquote {
+  color: rgba(32, 25, 15, 0.6);
+  font-family: Tahoma, sans-serif;
+  font-size: 40px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+blockquote h1 {
+  font-size: 4rem;
+}
+blockquote p {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+blockquote p::before,
+blockquote p::after {
+  content: "“";
+  font-family: Georgia;
+  font-size: 8rem;
+  margin: -2rem 0 0 -4rem;
+  position: absolute;
+  opacity: 0.5;
+}
+
+blockquote p::after {
+  content: "”";
+  margin: -1rem -4rem 0 0;
+}
+
+blockquote cite {
+  font-size: 1.5rem;
+}
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 250px;
+  height: 290px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  /* font-weight: bold; */
+  font-size: 20px;
+  margin-top: -260px;
+  height: 20px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+/* .card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url("https://i.redd.it/b3esnz5ra34y.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+} */
+.app-img {
+  width: 350px;
+  height: auto;
+}
+.mainfooter {
+  background-color: #0c2e8a;
+  padding-top: 2%;
+  color: white;
 }

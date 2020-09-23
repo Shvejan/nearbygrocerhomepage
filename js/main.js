@@ -174,15 +174,21 @@ jQuery(document).ready(function ($) {
     autoplay: true,
     dots: true,
     loop: true,
+    autoplayTimeout: 1,
+    slideTransition: "linear",
+    autoplaySpeed: 1000,
     responsive: {
       0: {
         items: 2,
+        loop: true,
       },
       768: {
         items: 4,
+        loop: true,
       },
       900: {
         items: 6,
+        loop: true,
       },
     },
   });
