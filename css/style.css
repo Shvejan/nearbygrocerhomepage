@@ -338,6 +338,9 @@ h6 {
 /* Nav Meu Container */
 
 #nav-menu-container {
+  /* justify-content: center;
+  align-items: center;
+  text-align: center; */
   float: right;
   margin: 0;
 }
@@ -652,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   );  */
   /* background: linear-gradient(to bottom, #33ff55 0%, #2e7e7e 100%); */
 
-  background-color: rgb(124, 255, 194);
+  background-color: rgb(115, 235, 131);
 }
 #services .box p {
   font-size: 14px;
@@ -834,7 +837,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .call-to-action {
-  background: #081e5b;
+  background: #6ab6f5;
   background-size: cover;
   padding: 40px 0;
 }
@@ -859,15 +862,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #50d8af;
-  color: #fff;
-  background: #50d8af;
+  /* border: 3px solid #50d8af; */
+  color: rgb(255, 255, 255);
+  background: #061e5f;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
 }
 
 .call-to-action .cta-btn:hover {
-  border: 3px solid #fff;
+  border: 3px solid rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
 
-  background: none;
+  background: #ffffff;
 }
 
 /* Our Team Section
@@ -1366,7 +1372,7 @@ blockquote cite {
   transition: 0.4s;
 } */
 .app-img {
-  width: 350px;
+  width: 10px;
   height: auto;
 }
 .mainfooter {
